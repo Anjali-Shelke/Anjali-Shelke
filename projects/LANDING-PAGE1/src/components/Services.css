@@ -1,0 +1,114 @@
+/* ================= SERVICES SECTION ================= */
+.services {
+  width: 100%;
+  padding: 10px 5vw;
+  background-color: #ffffff;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Center content */
+.services > * {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ================= PILL ================= */
+.services-pill {
+  display: inline-block;
+  padding: 6px 18px;
+  background: #ecfdf5;
+  color: #166534;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+/* ================= HEADING ================= */
+.services h2 {
+  font-size: clamp(26px, 3vw, 36px);
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+/* ================= SUBTITLE ================= */
+.services-subtitle {
+  max-width: 680px;
+  margin: 0 auto 60px;
+  color: #555;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* ================= GRID ================= */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  width: 100%;
+}
+
+/* ================= CARD ================= */
+.service-card {
+  background: #ffffff;
+  border: 1px solid #edeCFB;
+  border-radius: 16px;
+  padding: 30px 24px;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  box-sizing: border-box;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.08);
+}
+
+/* ================= ICON ================= */
+.service-icon {
+  width: 72px;
+  height: 72px;
+  margin: 0 auto 18px;
+  background: #f5f7ff;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-icon img {
+  max-width: 70%;
+  max-height: 70%;
+  object-fit: contain;
+}
+
+/* ================= CARD TEXT ================= */
+.service-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.service-card p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 1024px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .services {
+    padding: 60px 20px;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+}

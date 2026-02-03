@@ -1,0 +1,42 @@
+.specialization {
+  padding: 40px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 24px;
+  text-align: center;
+}
+
+.subtitle {
+  color: #666;
+  margin-top: 10px;
+  
+}
+
+.spec-grid {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.spec-card {
+  background: white;
+  padding: 32px;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.05);
+}
+
+/* 1024px */
+@media (max-width: 1024px) {
+  .spec-grid {
+    gap: 20px;
+  }
+}.spec-icon {
+  font-size: 34px;
+  color: #0a9c8c;
+  margin-bottom: 18px;
+}
+

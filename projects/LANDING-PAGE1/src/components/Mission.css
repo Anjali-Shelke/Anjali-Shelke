@@ -1,0 +1,73 @@
+.mission {
+  padding: 40px 0;
+  background: white;
+  text-align: center;
+}
+
+/* Badge same as Values / Team */
+.badge.center {
+  display: inline-block;
+  margin-bottom: 16px;
+  background: #e3f4f2;
+  color: #0a9c8c;
+  padding: 6px 16px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.mission h2 {
+  font-size: 36px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.mission-text {
+  max-width: 800px;
+  margin: 20px auto 60px;
+  color: #555;
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+.mission-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.mission-card {
+  background: white;
+  padding: 36px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mission-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 16px 40px rgba(0,0,0,0.08);
+}
+
+.mission-icon {
+  font-size: 32px;
+  color: #ECFDF5;
+  margin-bottom: 16px;
+}
+
+/* 1024px */
+@media (max-width: 1024px) {
+  .mission-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .mission h2 {
+    font-size: 30px;
+  }
+}.mission-icon {
+  font-size: 32px;
+  color: #0a9c8c;
+  margin-bottom: 16px;
+}
+

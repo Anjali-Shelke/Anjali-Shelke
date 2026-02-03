@@ -1,0 +1,129 @@
+/* ================= FEATURES SECTION ================= */
+.features {
+  width: 100%;
+  padding: 80px 5vw;
+  background-color: #ffffff;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Center content */
+.features > * {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ================= PILL ================= */
+.features-pill {
+  display: inline-block;
+  padding: 6px 16px;
+  background: #eafaf0;
+  color: #2e7d32;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  letter-spacing: 0.5px;
+}
+
+/* ================= HEADING ================= */
+.features h2 {
+  font-size: clamp(26px, 3vw, 36px);
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+/* ================= SUBTITLE ================= */
+.features-subtitle {
+  max-width: 640px;
+  margin: 0 auto 60px;
+  color: #555;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* ================= GRID ================= */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  width: 100%;
+}
+
+
+/* ================= CARD ================= */
+.feature-card {
+  padding: 28px;
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #edeefb;
+  text-align: left;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  box-sizing: border-box;
+}
+
+.feature-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.08);
+}
+
+/* ================= CARD TEXT ================= */
+.feature-card h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.feature-card p {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* ================= ICON ================= */
+.feature-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.feature-icon.purple {
+  background: #eef2ff;
+  color: #6366f1;
+}
+
+.feature-icon.green {
+  background: #ecfdf5;
+  color: #16a34a;
+}
+
+/* ================= LINK ================= */
+.learn-more {
+  display: inline-block;
+  margin-top: 14px;
+  color: #4f46e5;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+}
+

@@ -1,0 +1,151 @@
+/* ===============================
+   SECURITY SECTION
+================================ */
+.security-wrapper {
+  width: 100%;
+  padding: 56px 5vw;
+  background: #ffffff;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Inner container */
+.security-wrapper > * {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ===============================
+   TAG
+================================ */
+.security-tag {
+  display: inline-block;
+  background: #ecfdf5;
+  color: #30b654;
+  padding: 8px 22px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+}
+
+/* ===============================
+   HEADING
+================================ */
+.security-heading {
+  margin-top: 32px;
+  font-size: clamp(32px, 4vw, 48px);
+  font-weight: 700;
+  line-height: 1.2;
+  color: #000;
+}
+
+.security-heading span {
+  background: linear-gradient(90deg, #30b654, #5be584);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ===============================
+   SUBTITLE
+================================ */
+.security-subtitle {
+  margin-top: 16px;
+  font-size: clamp(16px, 2vw, 20px);
+  color: #444;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ===============================
+   GRID
+================================ */
+.security-grid {
+  margin-top: 64px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(280px, 1fr));
+  gap: 32px;
+}
+
+/* ===============================
+   CARD
+================================ */
+.security-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 24px;
+  border-radius: 22px;
+  background: #ffffff;
+  box-shadow: 0 12px 28px rgba(72, 131, 56, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.security-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(72, 131, 56, 0.22);
+}
+
+/* ===============================
+   ICON
+================================ */
+.security-icon {
+  width: 72px;
+  height: 72px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #30b654, #5be584);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 36px;
+  flex-shrink: 0;
+}
+
+/* ===============================
+   TEXT
+================================ */
+.security-text {
+  text-align: left;
+}
+
+.security-text h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #000;
+}
+
+.security-text p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* ===============================
+   RESPONSIVE
+================================ */
+@media (max-width: 900px) {
+  .security-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .security-wrapper {
+    padding: 72px 20px;
+  }
+
+  .security-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .security-text {
+    text-align: center;
+  }
+}
