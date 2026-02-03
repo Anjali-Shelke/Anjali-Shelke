@@ -1,18 +1,14 @@
-## Hi there 👋
+## 🚀 Projects
 
-<!--
-**Anjali-Shelke/Anjali-Shelke** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 🔹 VG Pay Sound Box Landing Page
+📁 Location: `projects/LANDING-PAGE1`
 
-Here are some ideas to get you started:
+**Tech Stack:** React, Vite, HTML, CSS, JavaScript  
+**Role:** Team Lead & Scrum Master  
+**Description:** Responsive landing page for VG Pay Sound Box with animations and device responsiveness.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-My name is anjali shelke;
-Git is so nice;
+### 🎓 Student Management System
+📁 Location: `projects/STUDENT-MANAGEMENT-SYSTEM`
+
+**Tech Stack:** Java, Spring Boot, REST APIs, MySQL  
+**Description:** Backend system for managing students, teachers, and academic records with secure REST APIs.
